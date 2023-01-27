@@ -24,12 +24,13 @@ public class NotOrtalamasiHesaplama {
 
         int average;
         average = (math + music + history + phys + turkish + chem)/6;
-        System.out.print("Average Grade: ");
-        System.out.print(average);
+
+        System.out.println(average>=60? "Ortalama= "+average+ '\n' + "Sınıfı Geçti":"Ortalama= "+average+ + '\n' + "Sınıfta Kaldı");
 
 
 
     }
 
 }
+
 
